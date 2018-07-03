@@ -12,7 +12,6 @@
     <meta charset="UTF-8">
     <title>Company List</title>
 
-<!--    <link href="files/bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" >
     <link href="resources/css/explore_style.css" rel="stylesheet">
 
