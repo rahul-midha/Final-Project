@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Company Name</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="resources/css/companyPage.css">
+  <!-- for reviews stars -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- for resposive layout-->
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" >
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+
+
+
+<nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Dal Intern</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="explore.php">Explore</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sign In</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="register.php">Register</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+
+      <!-- Company Details -->
+      <h2 class="company_heading">Company Name</h2>
+      <div class="fakeimg">Company Logo</div>
+      <p class="website_url">Website: <a href="#abc.com">www.abc.com</a></p>
+
+      <!-- reviews -->
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+
+      <br>
+      <!-- Add reviews button-->
+      <button class="review_button">Add Review</button>
+      <h3 class="job_profile_heading">Job Profiles</h3>
+      <ul class="nav nav-pills nav-stacked">
+        <li><a href="#">Data Scientist, Canada</a></li>
+        <li><a href="#">Software Developer, United States</a></li>
+        <li><a href="#">Business Analyst, Canada</a></li>
+        <li><a href="#">Front-End Developer, France</a></li>
+        <li><a href="#">Full-Stack Developer, India</a></li>
+      </ul>
+      <hr class="hidden-sm hidden-md hidden-lg">
+    </div>
+
+    <div class="col-sm-8">
+
+      <!-- company detail section-->
+      <h2 class="details_heading">Details</h2>
+      <p class="details_body">Ut enim nisi, fermentum sed elementum a, vulputate non sapien. Donec gravida lobortis odio, a sodales leo tempor ac.
+      Fusce condimentum dui turpis. Morbi turpis tortor, vestibulum vitae nisi id, ultrices suscipit enim.
+      Vestibulum fermentum, urna quis auctor blandit, elit elit pretium erat, dictum varius justo magna non justo.
+      Ut suscipit est ac turpis tincidunt, id aliquam felis lobortis. Aenean et laoreet metus.
+      Proin ornare leo vel eros maximus tempus. Suspendisse justo tortor, vehicula id sem ut, bibendum aliquam ligula.
+      Cras placerat porttitor odio vel bibendum. Duis purus sem, luctus sit amet velit vitae, efficitur gravida orci.
+      Nulla tristique augue non arcu aliquam eleifend. Proin sem nisi, venenatis sit amet blandit eu, posuere id sem.</p>
+    </div>
+
+    <!-- benefits section -->
+    <div class="col-sm-8">
+      <h2 class="benefits_heading">Benefits</h2>
+      <p>
+        <div class="benefits_body">
+          <ul style="list-style-type:disc">
+            <li>Proin ornare nunc in feugiat rutrum.</li>
+            <li>Etiam semper ex nec lacinia aliquet.</li>
+            <li>Phasellus eget erat ac risus feugiat dignissim.</li>
+            <li>Etiam semper ex nec lacinia aliquet.</li>
+            <li>Phasellus eget erat ac risus feugiat dignissim.</li>
+          </ul>
+        </div>
+      </p>
+    </div>
+
+    <!-- location section-->
+    <div class="col-sm-8">
+      <h2 class="location_heading">Location</h2>
+      <p>
+          <div id="map" style="height:300px"></div>
+
+          <script>
+          function myMap() {
+            var myCenter = new google.maps.LatLng(37.332067,-122.03159);
+            var mapCanvas = document.getElementById("map");
+            var mapOptions = {center: myCenter, zoom: 5};
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+            var marker = new google.maps.Marker({position:myCenter});
+            marker.setMap(map);
+          }
+          </script>
+
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcWG-8IEmtF84XAjmYNWX98u_IqPp7CwU&callback=myMap"></script>
+      </p>
+      <br>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="py-3 bg-dark">
+  <div class="footer">
+    <p class="text-center m-1 text-justify text-white">Copyright &copy; DalIntern 2018</p>
+  </div>
+</footer>
+
+<script src="files/jquery/jquery.min.js"></script>
+<script src="files/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

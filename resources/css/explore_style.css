@@ -1,0 +1,80 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+/*body {*/
+  /*padding-top: 54px;*/
+/*}*/
+
+@media (min-width: 968px) {
+  body {
+    padding-top: 56px;
+  }
+}
+@media (min-width: 320px) {
+  body {
+    padding-top: 56px;
+  }
+}
+@media (min-width: 720px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+/*.carousel-item {*/o
+  /*height: 65vh;*/
+  /*min-height: 300px;*/
+  /*background: no-repeat center center scroll;*/
+  /*background-size: cover;*/
+/*}*/
+
+.portfolio-item {
+  margin-bottom: 31px;
+}
+#wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+.banner-img {
+  width: 100%;
+}
+#container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*.pagination {*/
+  /*margin-bottom: 30px;*/
+/*}*/
+.image{
+  padding: 0px 133px 0px 133px;
+  height: 400px;
+  width: 100%;
+}
+.companyimages{
+  height: 200px;
+}
+.button{
+  background-color: lightskyblue;
+}
+#map{
+  height: 300px;
+  width:100%;
+}
+.card{
+  width: 18rem;
+}
+.cardstyling{
+  margin:15px 15px 15px 15px;
+  width:85%;
+}
+.mapstyling{
+  margin:15px 15px 15px 9%;
+}
+.mapstyling1{
+  margin-bottom: 25px;
+}
+
