@@ -42,7 +42,7 @@ if (isset ($_POST['submit'])){
                     <a class="nav-link" href="explore.php">Explore</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="s#">Sign In</a>
+                    <a class="nav-link" href="login.html">Sign In</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="register.php">Register</a>
@@ -117,7 +117,7 @@ if (isset ($_POST['submit'])){
         </div>
     </footer>
 
-    <script src="files/jquery/jquery.min.js"></script>
+    <script src="resources/jquery/jquery.min.js"></script>
     <script src="files/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>

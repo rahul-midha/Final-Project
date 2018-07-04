@@ -1,0 +1,86 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.homeCard {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+    .homeCard:hover {
+        box-shadow: unset;
+    }
+
+    .homeCard > .container > .panel-title {
+        font-weight: bolder;
+        font-size: x-large;
+    }
+
+    .homeCard > .container > a {
+        width: 100%;
+        background-color: black;
+        color: white;
+    }
+
+
+        .homeCard > .container > a:hover {
+            background-color: white;
+            color: black;
+        }
+
+
+/*Login CSS*/
+
+
+.fullpage{
+    min-height: 350px;
+}
+
+#loginForm > form {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#loginForm > form > .form-group{
+    text-align:center;
+    margin-left:0px !important;
+     margin-right:0px !important;
+}
+
+/*Company Page CSS*/
+
+.company-item {
+    position: relative;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.company-item img {vertical-align: middle;}
+
+.company-item .content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 5px;
+}
