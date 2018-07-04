@@ -44,8 +44,13 @@
     </div>
 </nav>
 
+<div style="margin-top: 20px; margin-left: 600px;" >
+    <input type="text" placeholder="Search for companies..">
+</div>
+<div class="btn btn-primary" style="margin-top: 20px; margin-left: 1100px;">Add a Company Review</div>
 
 <div class="row" style="margin-left: 30px; margin-top: 30px; margin-bottom: 30px;">
+
     <div class="col-lg-4 col-sm-12 col-md-6 ">
         <div class="card cardstyling">
             <img class="card-img-top companyimages" src="images/cra.jpeg">
