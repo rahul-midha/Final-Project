@@ -47,7 +47,6 @@
 <div style="margin-top: 20px; margin-left: 600px;" >
     <input type="text" placeholder="Search for companies..">
 </div>
-<!--<div class="btn btn-primary" style="margin-top: 20px; margin-left: 1100px;">Add a Company Review</div>-->
 
 <div class="row">
     <div class="pull-right">
@@ -134,9 +133,9 @@
 <div class="modal fade" id="companyModel" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">
-            <div class="modal-header">
+            <div class="modal-header ">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Add Company Review</h4>
+                <h4 class="modal-title " style="margin-right: 200px;">Add Company Review</h4>
             </div>
             <div class="modal-body">
                 <button class="btn btn-primary pull-right" style="margin-left: 390px; margin-bottom: 15px;">Submit</button>
@@ -144,7 +143,14 @@
                     <input type="text" placeholder="Company Name" class="form-control" />
                 </div>
                 <div class="pull-right">
-                    <select id="rating" name="rating">
+<!--                    <select id="rating" name="rating">-->
+<!--                        <option value="1">1</option>-->
+<!--                        <option value="2">2</option>-->
+<!--                        <option value="3">3</option>-->
+<!--                        <option value="4">4</option>-->
+<!--                        <option value="5">5</option>-->
+<!--                    </select>-->
+                    <select>
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>

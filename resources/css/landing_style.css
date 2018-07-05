@@ -129,7 +129,7 @@ h3{
 /*-----------------------------*/
 
 header{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)), url(img/a2background.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)), url(../../images/a2background.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -196,7 +196,7 @@ input[type=submit] {
 }
 
 .btn-full:hover,
-.btn-full:active,
+.btn-full:active
 {
     border:1px solid #cf6d17;
 }
@@ -205,4 +205,55 @@ input[type=submit] {
 .btn-ghost:active{
     color: #fff;
     border:1px solid #cf6d17;
+}
+
+
+/*-----------------------------*/
+/* Footer*/
+/*-----------------------------*/
+
+footer{
+    background-color:#272626;
+    padding: 20px 0 30px;
+}
+.footer-nav{
+    list-style: none;
+    float:left;
+}
+
+.social-links{
+    list-style: none;
+    float:right;
+}
+
+.footer-nav li,
+.social-links li{
+    display:inline-block;
+    margin-right:20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child{
+    margin-right:0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+    color:#b5b5b5;
+    text-decoration: none;
+    border:0;
+    transition:color 0.5s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active{
+    color:#666;
+}
+
+footer p{
+    color:#b5b5b5;
+    text-align: center;
+    font-size: 90%
 }
