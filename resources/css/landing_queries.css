@@ -16,7 +16,7 @@
     .text-box{
         top:50%;
         left:70%;
-        transform: translate(-25%, -50%);
+        transform: translate(-75%, -50%);
     }
 }
 
@@ -38,7 +38,7 @@
     .text-box{
         top:50%;
         left:70%;
-        transform: translate(-15%, -50%);
+        transform: translate(-90%, -50%);
     }
 
     .logo{
