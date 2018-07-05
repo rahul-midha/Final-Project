@@ -138,12 +138,11 @@ header{
 
 .text-box{
     position: absolute;
-    width:1140px;
+    width: fit-content;
     top:50%;
     left:70%;
-    transform: translate(-50%, -50%);
+    transform: translate(-80%, -50%);
 }
-
 
 
 btn:link,
