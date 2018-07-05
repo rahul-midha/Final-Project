@@ -139,7 +139,7 @@
                 <h4 class="modal-title">Add Company Review</h4>
             </div>
             <div class="modal-body">
-                <button class="btn btn-primary pull-right">Submit</button>
+                <button class="btn btn-primary pull-right" style="margin-left: 390px; margin-bottom: 15px;">Submit</button>
                 <div class="form-group">
                     <input type="text" placeholder="Company Name" class="form-control" />
                 </div>
