@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index - Dal Intern</title>
+    <!--Include BootStrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <!--Include Custom Current Page CSS-->
+    <link href="resources/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Include Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+</head>
+<style>
+
+
+    #explorecompanies {
+        /*background-color: #f2f2f2;*/
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .checked {
+        color: orange;
+    }
+    
+
+</style>
+<script>
+
+
+</script>
+<body>
+    <nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Dal Intern</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="explore.php">Explore</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Sign In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.php">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <br />
+    <br />
+    <br />
+
+    <div class="container" id="explorecompanies">
+        <br /><br /><br />
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4"><img style='float:left;width:150px;height:150px; margin-right:10px;' src="images/cra.png" /></div>
+                <div class="col-md-4">
+                    <p><b>Canada Revenue Agency</b></p>
+                    <p>Interview date: 28/05/2018</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <br /><br />
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#postReview">Post your review</button>
+
+                    
+
+                </div>
+                <div class="col-md-4">
+                    <img style='float:right;width:400px;height:200px; margin-right:10px;' src="images/map.png" />
+                </div>
+            </div>
+        <br></br>
+        <h5 style="margin-left:15px;">Discussion board</h5>
+        </br>
+        <div class="input-group col-md-6">
+            <input class="form-control py-2" type="search" value="search" id="example-search-input">
+            <span class="input-group-append">
+                <button type="button" class="btn btn-primary">Search</button>
+            </span>
+        </div>
+
+        <br><br>
+
+        <div class="card" style="width: 50rem;">
+            <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-muted">Posted on 29/05/2018<span style="float: right">Anonymous</span></h6>
+                <p class="card-text">
+                    Two written tests - situational judgement test was all multiple choice choice questions, memo writing
+                    was one hour long where they gave you a case to read and respond; and one in-person interview
+                </p>
+                <div class="form-group row">
+                    <div class=col-md-2>
+                        <span class="fa fa-thumbs-up"></span>
+                    </div>
+                    <div class=col-md-6>
+                        <span class="fa fa-thumbs-down"></span>
+                        <div style="float: right">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="card" style="width: 50rem;">
+            <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-muted">Posted on 30/05/2018<span style="float: right">Jack</span></h6>
+                <p class="card-text">
+                    Concentrate more on java and data structures
+                </p>
+                <div class="form-group row">
+                    <div class=col-md-2>
+                        <span class="fa fa-thumbs-up"></span>
+                    </div>
+                    <div class=col-md-6>
+                        <span class="fa fa-thumbs-down"></span>
+                        <div style="float: right">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br /><br />
+    </div>
+
+</body>
